@@ -1,0 +1,28 @@
+/* styles.css */
+
+/* Styles for the menu */
+.menu {
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: white;
+}
+
+.menuItem {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuIcon {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 5px;
+}
+
+.menuText {
+  font-size: 12px;
+  /* ... other text styles ... */
+}
+
+/* Add other global styles here */

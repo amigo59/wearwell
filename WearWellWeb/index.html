@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Interface Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Produits</h1>
+<ul id="products-list">
+    <!-- Les produits seront ajoutés ici -->
+</ul>
+
+<h2>Ajouter un produit</h2>
+<form id="add-product-form">
+    <input type="text" id="productName" placeholder="Nom du produit" required>
+    <input type="number" id="brandId" placeholder="ID de la marque" required>
+    <input type="number" id="categoryId" placeholder="ID de la catégorie" required>
+    <textarea id="description" placeholder="Description" required></textarea>
+    <input type="number" id="price" placeholder="Prix" required>
+    <input type="text" id="imageUrl" placeholder="URL de l'image" required>
+    <input type="text" id="dateAdded" placeholder="Date d'ajout (AAAA-MM-JJ)" required>
+    <input type="text" id="materialInfo" placeholder="Info matériel" required>
+    <input type="number" id="sustainabilityScoreId" placeholder="Score de durabilité" required>
+    <input type="text" id="sexe" placeholder="Sexe" required>
+    <button type="submit">Ajouter</button>
+</form>
+
+
+<script src="script.js"></script>
+</body>
+</html>
